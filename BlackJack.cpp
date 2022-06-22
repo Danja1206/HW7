@@ -122,7 +122,7 @@ class GenericPlayer : public Hand
         if (!aGenericPlayer.cards.empty())
         {
             for (crd = aGenericPlayer.cards.begin(); crd != aGenericPlayer.cards.end(); crd++)
-                str << (*crd) << "\t";
+                str << *(*crd) << "\t";
 
             if (aGenericPlayer.getAmount() != 0)
                 cout << "(" << aGenericPlayer.getAmount() << ")";
