@@ -370,7 +370,7 @@ int main()
     while (again != 'n' && again != 'N')
     {
         aGame.Play();
-        cout << "\nВы ходите поиграть ещё? (Y/N): ";
+        cout << "\nВы хотите поиграть ещё? (Y/N): ";
         cin >> again;
     }
 }
